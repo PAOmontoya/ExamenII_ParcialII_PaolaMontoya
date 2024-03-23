@@ -60,7 +60,7 @@ public class mainWIN extends javax.swing.JFrame{
     }
     
     private void usersBTNActionPerformed(java.awt.event.ActionEvent evt){
-        new userManagement().setVisible(true);
+        new userManagementWIN().setVisible(true);
         this.dispose();
     }
 }
