@@ -131,6 +131,7 @@ public class PSNUsers {
         return "";
         
     }
+    
     public String getInfoinRAF(String username){
         String info="";
         try{RAF.seek(0);
@@ -161,7 +162,9 @@ public class PSNUsers {
                 e.printStackTrace();
             }
         
-    return info;}
+    return info;
+    }
+    
     public String show(){
         Entry tmp=users.inicio;
         String users="";
