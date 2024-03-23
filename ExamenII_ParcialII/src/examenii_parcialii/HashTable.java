@@ -78,5 +78,8 @@ public class HashTable {
         }
     }
     
+    public Entry getInicio() {
+        return inicio;
+    }
     
 }
